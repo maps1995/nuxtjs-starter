@@ -1,6 +1,10 @@
 const { GTM_CONTAINER_ID, SENTRY_DSN } = process.env
 
 export default {
+  server: {
+    port: 3000,
+    host: "0.0.0.0"
+  },
   mode: 'universal',
   /*
    ** Headers of the page
